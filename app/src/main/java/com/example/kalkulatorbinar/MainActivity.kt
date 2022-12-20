@@ -12,5 +12,9 @@ class MainActivity : AppCompatActivity() {
         println("Masukkan angka kedua: ")
         //home kalkulator
 
+        println("masukkan operator (+, -, /, *): ")
+        //fitur kalkulator
+
+
     }
 }
