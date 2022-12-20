@@ -15,6 +15,11 @@ class MainActivity : AppCompatActivity() {
         println("masukkan operator (+, -, /, *): ")
         //fitur kalkulator
 
+        when (operator){
+            '+' -> hasil = pertama + kedua
+        //operator +
+        }
+
 
     }
 }
