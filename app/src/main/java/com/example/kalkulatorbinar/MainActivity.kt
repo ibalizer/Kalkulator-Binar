@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         println("masukkan operator (+, -, /, *): ")
         //fitur kalkulator
 
+        hasil: double
+
         when (operator){
             '+' -> hasil = pertama + kedua
         //operator +
@@ -24,8 +26,13 @@ class MainActivity : AppCompatActivity() {
         //operator *
             '/' -> hasil = pertama / kedua
         //operator / (bagi)
+
+            else -> {
+                println("Operator Salah!")
+                return
+            }
+            //pesan jika masukkan tidak sesuai input operator
         }
-
-
+        printf("%.1f %c %.1f = %.1f", pertama, operator, kedua, hasil))
     }
 }
