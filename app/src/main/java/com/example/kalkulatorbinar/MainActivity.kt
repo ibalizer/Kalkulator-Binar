@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         when (operator){
             '+' -> hasil = pertama + kedua
         //operator +
+            '-' -> hasil = pertama - kedua
+        //operator -
         }
 
 
