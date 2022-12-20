@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         //operator -
             '*' -> hasil = pertama * kedua
         //operator *
+            '/' -> hasil = pertama / kedua
+        //operator / (bagi)
         }
 
 
